@@ -35,7 +35,7 @@ li{
     justify-content: space-between;
 }
 .navi ul{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -74,6 +74,7 @@ a{
     flex-wrap: wrap;
     width: 80%;
     align-content: center;
+    background-color: rgb(250, 250, 250);
 }
 .whole-right-column{
     width: 80%;
@@ -97,6 +98,10 @@ a{
 }
 .profile-pic img{
     width:200px;
+    padding: 3px;
+    border: 3px solid #C13584;
+    border-radius: 100px;
+
 }
 
 .profile-info{
@@ -173,7 +178,7 @@ button{
     width: 85px;
     height: 85px;
     padding: 1.5px;
-    border: 2px solid rgb(138, 138, 138);
+    border: 2px solid rgb(189, 189, 189);
     border-radius: 100px;
     cursor: pointer;
 }
@@ -188,7 +193,6 @@ button{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 3rem;
-    margin-top: 1rem;
     justify-content: center;
     align-content: center;
     font-size: large;
@@ -197,21 +201,22 @@ button{
 .content-switch li{
     display: flex;
     gap: 10px;
+    padding-top: 1rem;
 }
 .post-underline{
-    border-bottom: 1px solid black;
+    border-top: 2px solid black;
     font-weight: bold;
 }
 .posts{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 50px;
     justify-content: space-around;
 }
 .posts-content img{
     height: 430px;
     width: 300px;
     border:none;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
